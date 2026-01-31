@@ -1,20 +1,46 @@
+import json
 import requests
 
 
 def get_randomuser_full_data():
     url = 'https://randomuser.me/api/'
 
-    # response = requests.get(url)
-    # data = response.json()
+    response = requests.get(url)
+    data = response.json()
 
-    # print(data['results'][0]['name'])
+    return data['results'][0]
 
 
 def get_user_data(user: dict):
-    pass
+    full_name = user['name']['first'] + ' ' + user['name']['last']
+    phone = user['phone']
+    email = user['email']
+    age = user['dob']['age']
+    nat = user['nat']
+    gender = user['gender']
+    country = user['location']['country']
+
+    result = {
+        "full_name": full_name,
+        "phone": phone,
+        "email": email,
+        "age": age,
+        "nat": nat,
+        "gender": gender,
+        "country": country
+    }
+
+    return result
 
 
 def main() -> None:
-    pass
+    users = []
+    for i in range(10):
+        user = get_randomuser_full_data()
+        user_data = get_user_data(user)
+        users.append(user_data)
+
+    with open('users.json', 'w') as f:
+        f.write(json.dumps(users, indent=4))
 
 main()

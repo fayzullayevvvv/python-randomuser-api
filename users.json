@@ -1,11 +1,92 @@
 [
     {
-        "full_name": "",
-        "phone": "",
-        "email": "",
-        "age": "",
-        "nat": "",
-        "gender": "",
-        "country": ""
+        "full_name": "Eirill Tvete",
+        "phone": "80030859",
+        "email": "eirill.tvete@example.com",
+        "age": 55,
+        "nat": "NO",
+        "gender": "female",
+        "country": "Norway"
+    },
+    {
+        "full_name": "Clyde Neal",
+        "phone": "016974 01927",
+        "email": "clyde.neal@example.com",
+        "age": 60,
+        "nat": "GB",
+        "gender": "male",
+        "country": "United Kingdom"
+    },
+    {
+        "full_name": "Perry Marshall",
+        "phone": "(770) 462-9499",
+        "email": "perry.marshall@example.com",
+        "age": 69,
+        "nat": "US",
+        "gender": "male",
+        "country": "United States"
+    },
+    {
+        "full_name": "Elliott Fagerland",
+        "phone": "35422777",
+        "email": "elliott.fagerland@example.com",
+        "age": 31,
+        "nat": "NO",
+        "gender": "male",
+        "country": "Norway"
+    },
+    {
+        "full_name": "Viljami Leino",
+        "phone": "09-151-983",
+        "email": "viljami.leino@example.com",
+        "age": 39,
+        "nat": "FI",
+        "gender": "male",
+        "country": "Finland"
+    },
+    {
+        "full_name": "Dennie Havik",
+        "phone": "(0192) 923575",
+        "email": "dennie.havik@example.com",
+        "age": 76,
+        "nat": "NL",
+        "gender": "male",
+        "country": "Netherlands"
+    },
+    {
+        "full_name": "Valda da Paz",
+        "phone": "(30) 5795-4333",
+        "email": "valda.dapaz@example.com",
+        "age": 35,
+        "nat": "BR",
+        "gender": "female",
+        "country": "Brazil"
+    },
+    {
+        "full_name": "Leroy Hunter",
+        "phone": "(282) 726-4892",
+        "email": "leroy.hunter@example.com",
+        "age": 67,
+        "nat": "US",
+        "gender": "male",
+        "country": "United States"
+    },
+    {
+        "full_name": "Jackson Sullivan",
+        "phone": "031-331-0370",
+        "email": "jackson.sullivan@example.com",
+        "age": 28,
+        "nat": "IE",
+        "gender": "male",
+        "country": "Ireland"
+    },
+    {
+        "full_name": "Mandy Ross",
+        "phone": "041-788-6638",
+        "email": "mandy.ross@example.com",
+        "age": 53,
+        "nat": "IE",
+        "gender": "female",
+        "country": "Ireland"
     }
 ]
