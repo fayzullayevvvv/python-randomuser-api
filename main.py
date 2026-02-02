@@ -34,11 +34,21 @@ def get_user_data(user: dict):
 
 
 def main() -> None:
-    users = []
-    for i in range(10):
+    male_users = []
+    female_users = []
+    for i in range(30):
         user = get_randomuser_full_data()
         user_data = get_user_data(user)
-        users.append(user_data)
+    
+        if user_data['gender'] == 'male':
+            male_users.append(user_data)
+        else:
+            female_users.append(user_data)
+
+    users = {
+        'male': male_users,
+        'female': female_users
+    }
 
     with open('users.json', 'w') as f:
         f.write(json.dumps(users, indent=4))

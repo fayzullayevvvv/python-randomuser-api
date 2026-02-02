@@ -1,92 +1,276 @@
-[
-    {
-        "full_name": "Eirill Tvete",
-        "phone": "80030859",
-        "email": "eirill.tvete@example.com",
-        "age": 55,
-        "nat": "NO",
-        "gender": "female",
-        "country": "Norway"
-    },
-    {
-        "full_name": "Clyde Neal",
-        "phone": "016974 01927",
-        "email": "clyde.neal@example.com",
-        "age": 60,
-        "nat": "GB",
-        "gender": "male",
-        "country": "United Kingdom"
-    },
-    {
-        "full_name": "Perry Marshall",
-        "phone": "(770) 462-9499",
-        "email": "perry.marshall@example.com",
-        "age": 69,
-        "nat": "US",
-        "gender": "male",
-        "country": "United States"
-    },
-    {
-        "full_name": "Elliott Fagerland",
-        "phone": "35422777",
-        "email": "elliott.fagerland@example.com",
-        "age": 31,
-        "nat": "NO",
-        "gender": "male",
-        "country": "Norway"
-    },
-    {
-        "full_name": "Viljami Leino",
-        "phone": "09-151-983",
-        "email": "viljami.leino@example.com",
-        "age": 39,
-        "nat": "FI",
-        "gender": "male",
-        "country": "Finland"
-    },
-    {
-        "full_name": "Dennie Havik",
-        "phone": "(0192) 923575",
-        "email": "dennie.havik@example.com",
-        "age": 76,
-        "nat": "NL",
-        "gender": "male",
-        "country": "Netherlands"
-    },
-    {
-        "full_name": "Valda da Paz",
-        "phone": "(30) 5795-4333",
-        "email": "valda.dapaz@example.com",
-        "age": 35,
-        "nat": "BR",
-        "gender": "female",
-        "country": "Brazil"
-    },
-    {
-        "full_name": "Leroy Hunter",
-        "phone": "(282) 726-4892",
-        "email": "leroy.hunter@example.com",
-        "age": 67,
-        "nat": "US",
-        "gender": "male",
-        "country": "United States"
-    },
-    {
-        "full_name": "Jackson Sullivan",
-        "phone": "031-331-0370",
-        "email": "jackson.sullivan@example.com",
-        "age": 28,
-        "nat": "IE",
-        "gender": "male",
-        "country": "Ireland"
-    },
-    {
-        "full_name": "Mandy Ross",
-        "phone": "041-788-6638",
-        "email": "mandy.ross@example.com",
-        "age": 53,
-        "nat": "IE",
-        "gender": "female",
-        "country": "Ireland"
-    }
-]
+{
+    "male": [
+        {
+            "full_name": "Kerim Da\u011flaro\u011flu",
+            "phone": "(311)-697-5736",
+            "email": "kerim.daglaroglu@example.com",
+            "age": 73,
+            "nat": "TR",
+            "gender": "male",
+            "country": "Turkey"
+        },
+        {
+            "full_name": "Ceyhun Durak",
+            "phone": "(396)-321-3588",
+            "email": "ceyhun.durak@example.com",
+            "age": 47,
+            "nat": "TR",
+            "gender": "male",
+            "country": "Turkey"
+        },
+        {
+            "full_name": "Harley Turner",
+            "phone": "(334)-840-8379",
+            "email": "harley.turner@example.com",
+            "age": 68,
+            "nat": "NZ",
+            "gender": "male",
+            "country": "New Zealand"
+        },
+        {
+            "full_name": "Ege T\u00fcrkdo\u011fan",
+            "phone": "(785)-468-2874",
+            "email": "ege.turkdogan@example.com",
+            "age": 37,
+            "nat": "TR",
+            "gender": "male",
+            "country": "Turkey"
+        },
+        {
+            "full_name": "Blagodar Onisko",
+            "phone": "(096) A98-0431",
+            "email": "blagodar.onisko@example.com",
+            "age": 79,
+            "nat": "UA",
+            "gender": "male",
+            "country": "Ukraine"
+        },
+        {
+            "full_name": "Joe Crawford",
+            "phone": "(896) 677-4542",
+            "email": "joe.crawford@example.com",
+            "age": 65,
+            "nat": "US",
+            "gender": "male",
+            "country": "United States"
+        },
+        {
+            "full_name": "Narek Scholing",
+            "phone": "(0034) 869849",
+            "email": "narek.scholing@example.com",
+            "age": 40,
+            "nat": "NL",
+            "gender": "male",
+            "country": "Netherlands"
+        },
+        {
+            "full_name": "Kristian Sanden",
+            "phone": "39523421",
+            "email": "kristian.sanden@example.com",
+            "age": 45,
+            "nat": "NO",
+            "gender": "male",
+            "country": "Norway"
+        },
+        {
+            "full_name": "Philip Meyer",
+            "phone": "05-4131-0310",
+            "email": "philip.meyer@example.com",
+            "age": 74,
+            "nat": "AU",
+            "gender": "male",
+            "country": "Australia"
+        },
+        {
+            "full_name": "Tristan Brunet",
+            "phone": "03-94-26-22-82",
+            "email": "tristan.brunet@example.com",
+            "age": 45,
+            "nat": "FR",
+            "gender": "male",
+            "country": "France"
+        },
+        {
+            "full_name": "Theo Johnson",
+            "phone": "X43 V02-2750",
+            "email": "theo.johnson@example.com",
+            "age": 71,
+            "nat": "CA",
+            "gender": "male",
+            "country": "Canada"
+        },
+        {
+            "full_name": "Jacob S\u00f8rensen",
+            "phone": "71909102",
+            "email": "jacob.sorensen@example.com",
+            "age": 58,
+            "nat": "DK",
+            "gender": "male",
+            "country": "Denmark"
+        },
+        {
+            "full_name": "Enzo Masson",
+            "phone": "076 584 84 37",
+            "email": "enzo.masson@example.com",
+            "age": 35,
+            "nat": "CH",
+            "gender": "male",
+            "country": "Switzerland"
+        },
+        {
+            "full_name": "Nirav Dawangave",
+            "phone": "7268082379",
+            "email": "nirav.dawangave@example.com",
+            "age": 68,
+            "nat": "IN",
+            "gender": "male",
+            "country": "India"
+        },
+        {
+            "full_name": "Joel Moulin",
+            "phone": "078 659 88 57",
+            "email": "joel.moulin@example.com",
+            "age": 36,
+            "nat": "CH",
+            "gender": "male",
+            "country": "Switzerland"
+        }
+    ],
+    "female": [
+        {
+            "full_name": "Francin\u00e9ia Santos",
+            "phone": "(54) 0786-6505",
+            "email": "francineia.santos@example.com",
+            "age": 47,
+            "nat": "BR",
+            "gender": "female",
+            "country": "Brazil"
+        },
+        {
+            "full_name": "Sofia Mitchell",
+            "phone": "K71 E00-9418",
+            "email": "sofia.mitchell@example.com",
+            "age": 35,
+            "nat": "CA",
+            "gender": "female",
+            "country": "Canada"
+        },
+        {
+            "full_name": "Mandy Richardson",
+            "phone": "019467 93427",
+            "email": "mandy.richardson@example.com",
+            "age": 46,
+            "nat": "GB",
+            "gender": "female",
+            "country": "United Kingdom"
+        },
+        {
+            "full_name": "Lumi Jarvinen",
+            "phone": "07-869-288",
+            "email": "lumi.jarvinen@example.com",
+            "age": 46,
+            "nat": "FI",
+            "gender": "female",
+            "country": "Finland"
+        },
+        {
+            "full_name": "Remedios Hidalgo",
+            "phone": "947-345-146",
+            "email": "remedios.hidalgo@example.com",
+            "age": 68,
+            "nat": "ES",
+            "gender": "female",
+            "country": "Spain"
+        },
+        {
+            "full_name": "Pooja Shukla",
+            "phone": "9265818831",
+            "email": "pooja.shukla@example.com",
+            "age": 74,
+            "nat": "IN",
+            "gender": "female",
+            "country": "India"
+        },
+        {
+            "full_name": "Aida Rodr\u00edguez",
+            "phone": "(668) 030 1310",
+            "email": "aida.rodriguez@example.com",
+            "age": 33,
+            "nat": "MX",
+            "gender": "female",
+            "country": "Mexico"
+        },
+        {
+            "full_name": "Marie J\u00f8rgensen",
+            "phone": "12852974",
+            "email": "marie.jorgensen@example.com",
+            "age": 69,
+            "nat": "DK",
+            "gender": "female",
+            "country": "Denmark"
+        },
+        {
+            "full_name": "Gonca Babao\u011flu",
+            "phone": "(577)-005-9191",
+            "email": "gonca.babaoglu@example.com",
+            "age": 38,
+            "nat": "TR",
+            "gender": "female",
+            "country": "Turkey"
+        },
+        {
+            "full_name": "Jacinta Farias",
+            "phone": "(32) 9349-1998",
+            "email": "jacinta.farias@example.com",
+            "age": 30,
+            "nat": "BR",
+            "gender": "female",
+            "country": "Brazil"
+        },
+        {
+            "full_name": "Stilla Hill",
+            "phone": "0212-2564959",
+            "email": "stilla.hill@example.com",
+            "age": 64,
+            "nat": "DE",
+            "gender": "female",
+            "country": "Germany"
+        },
+        {
+            "full_name": "\u0632\u0647\u0631\u0627 \u06a9\u0648\u062a\u06cc",
+            "phone": "067-69756432",
+            "email": "zhr.khwty@example.com",
+            "age": 48,
+            "nat": "IR",
+            "gender": "female",
+            "country": "Iran"
+        },
+        {
+            "full_name": "Imelda Thiemann",
+            "phone": "0249-8121500",
+            "email": "imelda.thiemann@example.com",
+            "age": 29,
+            "nat": "DE",
+            "gender": "female",
+            "country": "Germany"
+        },
+        {
+            "full_name": "Molly Marshall",
+            "phone": "011-653-1404",
+            "email": "molly.marshall@example.com",
+            "age": 77,
+            "nat": "IE",
+            "gender": "female",
+            "country": "Ireland"
+        },
+        {
+            "full_name": "Gabriele Nicolas",
+            "phone": "077 704 40 10",
+            "email": "gabriele.nicolas@example.com",
+            "age": 55,
+            "nat": "CH",
+            "gender": "female",
+            "country": "Switzerland"
+        }
+    ]
+}
